@@ -12,12 +12,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run inference using the trained Hugging Face model:
-
-```bash
-python inference.py
-```
-
 # Training Platform
 Training was done on Kaggle Notebook using GPU T4 x2 acceleration and Kaggle Secrets for WANDB_API_KEY and HF_TOKEN.
 
